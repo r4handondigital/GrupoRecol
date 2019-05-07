@@ -1,0 +1,133 @@
+
+
+@media only screen and (min-width:992px){
+
+	nav .brand-logo{
+		top:-50px;
+	}
+
+	header{
+		height: 265px;
+	}
+
+}
+.sombra-vermelha{
+	height: 350px;
+	    background: url(../../imgs/tarja-vermelha.png) no-repeat 0 -132px;
+	top: 0
+}
+.map-nav{
+	margin-top: 30px;
+}
+
+.super-destaque{
+	display: none;
+}
+.row .col.l7,.row .col.l8,.row .col.l5 {
+
+padding: 0 20px;
+}
+
+.lista-du{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+.map-nav li {
+    display: inline;
+    margin: 10px 0px 10px 10px;
+    font-size: 12px;
+    text-transform: uppercase;
+    background: url(../../imgs/ico-nav.jpg) no-repeat right center;
+    padding-right: 17px;
+}
+.lista-du h4{
+	margin-bottom: 0;
+	height: auto !important;
+}
+
+.map-nav li:last-child{
+	background: none;
+}
+
+.map-nav li a{
+	    border-bottom: 2px solid #ddd;
+	font-weight: bold;
+}
+
+.texto img{
+	width: 100%;
+	height: auto;
+}
+
+.titulo-int{
+	margin-bottom:20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #cecece; 
+	text-align: left;
+}
+
+.titulo-int span{
+	display: block;
+	color: #c32025;
+	font-size: 12px;
+}
+
+.site-x:before{
+	background: url(../../icons/Untitled-1_01.png) no-repeat left center;
+}
+
+.map-end:before{
+	background: url(../../icons/Untitled-1_02.jpg) no-repeat left center;
+}
+
+.site-x:before,.map-end:before{
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.page-numbers {
+    float: left;
+    margin-top: 10px;    
+}
+.page-numbers li {
+    display: inline-block;
+    margin-left: 3px;    
+}
+.page-numbers a, .page-numbers .dots, .page-numbers .next, .page-numbers .prev {
+    padding: 6px 12px;
+    background: #eee;
+    text-decoration: none; 
+}
+.page-numbers a:hover, .page-numbers .next:hover, .page-numbers .prev:hover {
+    background: #666;
+    color:#fff;
+}
+.ict{
+    display: none;
+}
+.page-numbers .current {
+    padding: 6px 12px;
+    background: #666;
+    color: #fff;   
+}
+
+.img-empre img{
+
+}
+
+.posta i{
+	color: #c32b30;
+}
+
+.capa-bloco{
+	text-align: justify;
+}
+
+@media only screen and (max-width:1370px){
+.sombra-vermelha{
+	width: 490px;
+	background: url(../../imgs/tarja-vermelha.png) no-repeat -330px -132px;
+
+}

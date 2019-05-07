@@ -1,0 +1,95 @@
+.sombra-vermelha{
+    display: none;
+}
+@media only screen and (min-width:992px){
+
+	nav .brand-logo{
+		top:-50px;
+	}
+
+	header{
+		height: 220px;
+	}
+
+  
+
+}
+
+
+.row .col.offset-s6 {
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+.cpx.btn-large {
+    margin-top:30px; 
+    background: #6d6d6d;
+    font-size: 12px;
+    font-weight: bold;
+    height: 62px;
+    line-height: 62px;
+    color: #fff;
+    border: 1px solid #3a3a3a;
+}
+
+.super-destaque .item{
+    position: relative;
+}
+
+.bloco-sombra {
+    display: table;
+    background: rgba(255,255,255,0.8);
+    padding: 20px 30px;
+    position: absolute;
+    top: -440px;
+    text-align: center;
+    width: 770px;
+    box-shadow: 3px 1px 4px #7e7e7e;
+}
+.bloco-sombra h4{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+.lendo{
+    background: url(../../imgs/images/detalhe-img.png) no-repeat center top;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 700;
+}
+.bloco-sombra h4 span{
+    display: block;
+    margin-bottom: 20px;
+    color: #c32025;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.bloco{
+    width: 770px;
+    margin: 0 auto;
+    position: relative;
+}
+
+@media only screen and (max-width:1370px){
+.sombra-vermelha{
+    left: -280px;
+
+}
+
+@media only screen and (max-width:667px){
+
+.bloco-sombra{
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.bloco-sombra h4{
+    font-size: 13px;
+}
+.bloco{
+        height: auto;
+    width: 100%;
+}
+}

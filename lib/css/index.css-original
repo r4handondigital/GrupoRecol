@@ -1,0 +1,38 @@
+
+@media only screen and (min-width:992px){
+
+	nav .brand-logo{
+		top:-50px;
+	}
+
+	header{
+		height: 807px;
+	}
+
+  
+
+}
+
+
+.row .col.offset-s6 {
+    margin-left: 50%;
+    margin-top: 15%;
+}
+
+.cpx.btn-large {
+    margin-top:30px; 
+    background: #6d6d6d;
+    font-size: 12px;
+    font-weight: bold;
+    height: 62px;
+    line-height: 62px;
+    color: #fff;
+    border: 1px solid #3a3a3a;
+}
+
+
+@media only screen and (max-width:1370px){
+.sombra-vermelha{
+    left: -280px;
+
+}
